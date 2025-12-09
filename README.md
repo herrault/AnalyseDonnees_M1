@@ -10,7 +10,7 @@
 
 ## 💻 Exercice 1 : Chaîne de Traitement des Données (`dplyr`) 
 
-### Question 1.1 : Préparation et Ajout d'une Colonne Géographique (30 points)
+### Question 1.1 : Préparation et Ajout d'une Colonne Géographique
 
 Le jeu de données initial `arbres` (avant `clean_names()`) contient une colonne nommée **`geo_point_2d`** au format texte, par exemple `"48.8589, 2.3411"`.
 
