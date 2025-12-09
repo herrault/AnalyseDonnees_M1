@@ -67,7 +67,7 @@ Considérez le graphique en violon (Violin Plot) ci-dessous, qui compare la dist
 1.  **Code `ggplot2` pour obtenir ce graphique :** Écrivez la séquence de code nécessaire pour générer un graphique en violon comparant la distribution de la `hauteur_m` par `domanialite`. (Vous pouvez ignorer les thèmes et les limites d'axes.)
 2.  **Interprétation :** En observant la forme du violon, décrivez la différence entre une catégorie où le violon est **très large et évasé aux extrémités** et une catégorie où il est **étroit au centre mais avec deux "bosses" distinctes (bimodal)**.
 
-3.  # Exercice 3 : Logique de Web Scraping et Manipulation de Texte (1h15)
+## 💻 Exercice 3 : Logique de Web Scraping et Manipulation de Texte (1h15)
 
 Cet exercice évalue votre compréhension et votre capacité à compléter un script d'automatisation. On utilise des données fictives de prix et de tailles de parcelles d'arbres sur une seule page.
 
