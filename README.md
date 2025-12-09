@@ -64,7 +64,7 @@ Vous devez :
 
 ---
 
-### Question 3.1 : Ciblage HTML (rvest) (30 points)
+### Question 3.1 : Ciblage HTML (rvest) 
 
 Nous cherchons à extraire les titres des parcelles et leurs prix de la page. Ecrivez le code pour réaliser cette tâche
 
