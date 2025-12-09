@@ -75,7 +75,7 @@ Cet exercice évalue votre compréhension et votre capacité à compléter un sc
 
 ## Question 3.1 : Ciblage HTML (rvest) (30 points)
 
-Nous cherchons à extraire les titres des parcelles et leurs prix de la page.
+Nous cherchons à extraire les titres des parcelles et leurs prix de la page. Ecrivez le code pour réaliser cette tâche
 
 Le HTML de la page est structuré comme suit :
 
@@ -90,4 +90,24 @@ Le HTML de la page est structuré comme suit :
   <span class="size">8 m²</span>
   <span class="price">Prix : 950 €</span>
 </div>
+
+### Question 3.2 : Nettoyage de Texte avec Expressions Régulières (45 points)
+
+Le vecteur `prix` obtenu est : `c("Prix : 1500 €", "Prix : 950 €", "Prix : 2000 €")`.
+
+Votre objectif est de convertir ce vecteur en un **vecteur numérique** ne contenant que les valeurs `1500`, `950`, `2000`.
+
+Complétez le script en utilisant la fonction `gsub()` et la conversion `as.numeric()`.
+
+```r
+# Étape 1 : Supprimer tout ce qui n'est pas un nombre
+prix_nettoye <- gsub(
+    # Pattern : Matcher "Prix : " au début ET " €" à la fin
+    "Prix : | €", 
+    # Remplacement : Remplacer par rien (chaine vide)
+    "", 
+    prix)
+
+# Étape 2 : Conversion
+prix_numerique <- as.numeric(prix_nettoye)
 
