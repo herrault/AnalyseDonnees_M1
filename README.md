@@ -1,4 +1,4 @@
-# Évaluation Finale : Analyse de données avec R PA Herrault(3 Heures)
+# Évaluation Finale : Analyse de données avec R (3 Heures)
 
 **Objectif :** Évaluer la capacité à construire des étapes logiques d'analyse de données (`dplyr`, `ggplot2`) et à appliquer les fonctions de Web Scraping (`rvest`) et de manipulation de chaînes de caractères (`gsub`, `paste0`, `strsplit`). L'accent est mis sur la logique d'enchaînement des opérations et la compréhension des fonctions.
 
