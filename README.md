@@ -73,7 +73,7 @@ Cet exercice évalue votre compréhension et votre capacité à compléter un sc
 
 ---
 
-## Question 3.1 : Ciblage HTML (rvest) (30 points)
+### Question 3.1 : Ciblage HTML (rvest) (30 points)
 
 Nous cherchons à extraire les titres des parcelles et leurs prix de la page. Ecrivez le code pour réaliser cette tâche
 
@@ -90,6 +90,7 @@ Le HTML de la page est structuré comme suit :
   <span class="size">8 m²</span>
   <span class="price">Prix : 950 €</span>
 </div>
+```
 
 ---
 
