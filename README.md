@@ -60,7 +60,7 @@ Vous devez :
 1. Écrivez la séquence de code nécessaire pour générer un graphique en violon comparant la distribution de la `hauteur_m` par `domanialite`. Limitez les valeurs de hauteur à 50m. 
 2. Décrivez et interprétez la forme des groupes d'arbres localisés dans les cimetières, les alignements ou les périphériques. 
 
-## 💻 Exercice 3 : Logique de Web Scraping et Manipulation de Texte 
+## 💻 Exercice 3 : Web Scraping et Manipulation de Texte 
 
 ---
 
