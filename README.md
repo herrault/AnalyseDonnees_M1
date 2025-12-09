@@ -1,12 +1,10 @@
 # Évaluation Finale : Analyse de données avec R (3 Heures)
 
-**Objectif :** Évaluer la capacité à construire des étapes logiques d'analyse de données (`dplyr`, `ggplot2`) et à appliquer les fonctions de Web Scraping (`rvest`) et de manipulation de chaînes de caractères (`gsub`, `paste0`, `strsplit`). L'accent est mis sur la logique d'enchaînement des opérations et la compréhension des fonctions.
-
 **Consignes :**
 
 * Vous avez accès à votre script de cours complet.
-* Vous devez répondre aux questions en écrivant le **code logique** ou en **décrivant clairement** la séquence d'opérations nécessaires, en utilisant les noms de fonctions (ex : `filter()`, `mutate()`).
-* **Données utilisées :** `arbres_clean` (pour les Exercices 1 & 2) et un script incomplet pour l'Exercice 3.
+* Vous devez répondre aux questions en écrivant le code demandé dans un script intitulé **script_reponse.R**. Organisez votre script en indiquant les balises des questions (**##1.1...**). Lorsqu'une inteprétation
+* vous est demandée, écrivez votre texte précédé d'un #. Déposez votre script sur Moodle. 
 
 ---
 
