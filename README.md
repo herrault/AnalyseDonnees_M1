@@ -91,6 +91,8 @@ Le HTML de la page est structuré comme suit :
   <span class="price">Prix : 950 €</span>
 </div>
 
+---
+
 ### Question 3.2 : Nettoyage de Texte avec Expressions Régulières (45 points)
 
 Le vecteur `prix` obtenu est : `c("Prix : 1500 €", "Prix : 950 €", "Prix : 2000 €")`.
