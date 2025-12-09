@@ -55,7 +55,7 @@ Vous devez :
 2.  Utiliser `facet_grid()` pour séparer les graphiques par arrondissement.
 3.  Laisser les échelles de l'axe X des hauteurs **libres** entre les arrondissements.
 
-### Question 2.2 : Interprétation d'un Graphique en Violon et Code 
+### Question 2.2 : Production et Interprétation d'un Graphique en Violon
 
 1. Écrivez la séquence de code nécessaire pour générer un graphique en violon comparant la distribution de la `hauteur_m` par `domanialite`. Limitez les valeurs de hauteur à 50m. 
 2. Décrivez et interprétez la forme des groupes d'arbres localisés dans les cimetières, les alignements ou les périphériques. 
