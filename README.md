@@ -3,7 +3,8 @@
 **Consignes :**
 
 * Vous avez accès à votre script de cours complet.
-* Vous devez répondre aux questions en écrivant le code demandé dans un script intitulé **script_reponse.R**. Organisez votre script en indiquant les balises des questions (**##1.1...**). Lorsqu'une inteprétation vous est demandée, écrivez votre texte précédé d'un #. Déposez votre script sur Moodle. 
+* Vous devez répondre aux questions en écrivant le code demandé dans un script intitulé **script_reponse.R**. Organisez votre script en indiquant les balises des questions (**##1.1...**). Lorsqu'une inteprétation vous est demandée, écrivez votre texte précédé d'un #.
+* Déposez votre script sur Moodle. 
 
 ---
 
