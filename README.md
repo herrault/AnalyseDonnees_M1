@@ -64,15 +64,30 @@ Vous devez :
 
 Considérez le graphique en violon (Violin Plot) ci-dessous, qui compare la distribution de la **`hauteur_m`** (en Y) selon le **`domanialite`** (en X).
 
-
-
 1.  **Code `ggplot2` pour obtenir ce graphique :** Écrivez la séquence de code nécessaire pour générer un graphique en violon comparant la distribution de la `hauteur_m` par `domanialite`. (Vous pouvez ignorer les thèmes et les limites d'axes.)
-
-    **Code logique `ggplot2` :**
-    ```r
-    arbres_clean %>%
-      ggplot(aes(x = domanialite, y = hauteur_m, fill = domanialite)) +
-      geom_violin()
-    ```
-
 2.  **Interprétation :** En observant la forme du violon, décrivez la différence entre une catégorie où le violon est **très large et évasé aux extrémités** et une catégorie où il est **étroit au centre mais avec deux "bosses" distinctes (bimodal)**.
+
+3.  # Exercice 3 : Logique de Web Scraping et Manipulation de Texte (1h15)
+
+Cet exercice évalue votre compréhension et votre capacité à compléter un script d'automatisation. On utilise des données fictives de prix et de tailles de parcelles d'arbres sur une seule page.
+
+---
+
+## Question 3.1 : Ciblage HTML (rvest) (30 points)
+
+Nous cherchons à extraire les titres des parcelles et leurs prix de la page.
+
+Le HTML de la page est structuré comme suit :
+
+```html
+<div class="parcel">
+  <h2 class="title">Parcelle A - Chêne</h2>
+  <span class="size">12 m²</span>
+  <span class="price">Prix : 1500 €</span>
+</div>
+<div class="parcel">
+  <h2 class="title">Parcelle B - Érable</h2>
+  <span class="size">8 m²</span>
+  <span class="price">Prix : 950 €</span>
+</div>
+
